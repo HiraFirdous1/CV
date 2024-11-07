@@ -1,77 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Azka Khan - Resume</title>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .contact-info, .education, .projects, .leadership, .skills, .summary {
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 10px;
-        }
-        .contact-info p, .section p {
-            margin: 5px 0;
-        }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Hira Firdous</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1, h2 { color: #333; }
+        .section { margin-bottom: 20px; }
+        .contact-info, .education, .experience, .skills, .projects { margin-top: 15px; }
+        .item-title { font-weight: bold; }
+        .sub-item { margin-left: 20px; }
+    </style>
 </head>
 <body>
-<header class="contact-info">
-<h1>Azka Khan</h1>
-<p>Township, Lahore</p>
-<p>Phone: (+92)-331-4052998</p>
-<p>Email: <a href="mailto:kh.azka7@gmail.com">kh.azka7@gmail.com</a></p>
-LinkedIn: linkedin.com/in/azka-khan-a6a580275</a></p>
-</header>
-<section class="summary">
-<h2>Professional Summary</h2>
-<p>Driven engineering graduate with a strong foundation in technology development. Skilled in software development, IoT, and computer vision, with experience in integrating advanced technologies into practical solutions. Committed to delivering high-quality, impactful projects that enhance user experience and improve everyday life.</p>
-</section>
-<section class="education section">
-<h2>Education</h2>
-<p><strong>University of Central Punjab, Lahore</strong> <span>(Oct 2020 - Aug 2024)</span></p>
-<p>Bachelor of Science, Major: Computer Science, CGPA: 3.63</p>
-<p><strong>Punjab Group of Colleges, Lahore</strong> <span>(Mar 2018 – Sep 2020)</span></p>
-<p>Intermediate in Computer Science</p>
-</section>
-<section class="projects section">
-<h2>Projects</h2>
-<p><strong>Bling Assist</strong> <span>(Jan 2024 - Jul 2024)</span></p>
-<p>Developed a smart glasses system for the visually impaired using a Raspberry Pi, camera module, YOLOv5 for real-time object detection, and a Flutter-based application with geofencing and Firebase integration.</p>
-<p><strong>Parental Guide</strong> <span>(Dec 2023 - Jan 2024)</span></p>
-<p>Proficiently developed an Android application with geofencing capabilities using Android Studio, enhancing location-based functionalities for seamless user experiences.</p>
-<p><strong>Zombies City</strong> <span>(Nov 2022 - Dec 2022)</span></p>
-<p>Developed a 2D zombie shooter game with multiple levels, characters, and power-ups on Unity.</p>
-<p><strong>Line Following Robot</strong> <span>(Nov 2021 - Dec 2021)</span></p>
-<p>A Microcontroller project on Arduino. A line-following robot with light and sound detection sensors.</p>
-</section>
-<section class="leadership section">
-<h2>Leadership Activities</h2>
-<ul>
-<li>Volunteered in an event for special kids at FAST university.</li>
-<li>Led university projects.</li>
-<li>Video edited an event at PUCIT university.</li>
-</ul>
-</section>
-<section class="skills section">
-<h2>Skills and Interests</h2>
-<p><strong>Technical Skills:</strong> C, C++, Python, Assembly Language</p>
-<p><strong>Languages:</strong> English (Fluent), Urdu (Native), Punjabi (Native)</p>
-<p><strong>Interpersonal Skills:</strong> Proficient in Microsoft Applications (Word, PowerPoint), Problem-solving, Time Management, Analytical Thinking, Willingness to learn with a ‘can do’ attitude</p>
-<p><strong>Interests:</strong> Exploring video editing software and graphic designing applications</p>
-<p><strong>Courses:</strong> Game Development, Microcontroller Programming</p>
-</section>
+<div class="container">
+    <div class="header">
+        <h1>Hira Firdous</h1>
+        <p>Computer Engineer</p>
+        <p>+92 307 5199858 | <a href="mailto:hiraafirdous@gmail.com">hiraafirdous@gmail.com</a> | 
+            <a href="https://www.linkedin.com/in/hira-firdous-62647920a/">LinkedIn</a> | 
+            <a href="https://github.com/Hira-Firdous">GitHub</a>
+        </p>
+    </div>
+
+    <div class="section education">
+        <h2>Education</h2>
+        <div class="sub-item">
+            <p class="item-title">University of Engineering and Technology, Lahore, Pakistan</p>
+            <p>BSc. Computer Engineering, CGPA: 3.466 </p>
+        </div>
+    </div>
+
+    <div class="section courses">
+        <h2>Relevant Courses</h2>
+        <p><strong>Electives:</strong> Machine Learning, Computer Vision and Image Processing, Data Mining, Bio-Medical Computing</p>
+        <p>Data Structures & Algorithms, Artificial Intelligence, Software Engineering, Object-Oriented Programming, Database Management, Probability and Random Variables, Operating Systems, Linear Algebra, Project Management, and more.</p>
+    </div>
+
+    <div class="section experience">
+        <h2>Experience</h2>
+        
+        <div class="sub-item">
+            <p class="item-title">Trainee Engineer - Xcelerium, Lahore (July 2022 - Present)</p>
+            <ul>
+                <li>Designed and implemented digital circuits, optimized memory access with a cache controller, and verified accuracy using Cocotb and QuestaSim.</li>
+                <li>Enhanced Git skills, shell scripting, and integrated AI in hardware for efficient systems.</li>
+            </ul>
+        </div>
+
+        <div class="sub-item">
+            <p class="item-title">ML Intern - Computer Vision and Machine Learning Lab, Kics-UET, Lahore (July 2022 - Sep 2022)</p>
+            <ul>
+                <li>Developed CNN models for pattern matching, weather forecasting, and conducted research on augmented reality and YOLO models.</li>
+                <li>Gained a solid understanding of machine learning, deep learning, and neural networks.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section skills">
+        <h2>Technical Skills</h2>
+        <p><strong>Languages:</strong> Python, C/C++, Java, SQL, Verilog</p>
+        <p><strong>Frameworks:</strong> React, TensorFlow, PyTorch, Flask, Bash, COCtb, Java Swing</p>
+        <p><strong>Developer Tools:</strong> Git, Google Colab, LaTeX, VS Code, Visual Studio, PyCharm, IntelliJ, Jupyter Notebook</p>
+        <p><strong>Libraries:</strong> Pandas, Keras, NumPy, Matplotlib, OpenCV, RISC-V</p>
+    </div>
+
+    <div class="projects-section">
+        <h2>Projects</h2>
+    
+        <div class="sub-item">
+            <p class="item-title">Smart CBC Diagnostic System - Python, Google Colab, Tensorflow, OpenCV, YOLO (April 2023 - May 2024)</p>
+            <ul>
+                <li>Built an AI-powered diagnostic system for analyzing blood smear images with YOLOv5 and YOLOv8, using the MERN stack for a web-based user interface.</li>
+                <li>Secured funding from PEC and achieved top-eight placement in the Human-Centered Design (HCD) competitions.</li>
+                <li>Overcame challenges in dataset management and data privacy, with plans for clinical trials and enhanced diagnostic features.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Abnormal Heartbeat Detection - SVM Model, Python (Feb 2023 - April 2023)</p>
+            <ul>
+                <li>Developed a system to classify heartbeat audio signals as normal or abnormal using a Support Vector Machine (SVM) model in Python, aimed at early detection of cardiac irregularities.</li>
+                <li>Designed and implemented a hardware setup that enabled seamless transmission of heartbeat audio to a computer for real-time analysis and classification.</li>
+                <li>Optimized the SVM model for accurate heartbeat classification, improving detection sensitivity through data preprocessing and feature extraction.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Emotion Recognition - Pandas, NumPy, Python, Sequential Model (Oct 2022 - Dec 2022)</p>
+            <ul>
+                <li>Developed a CNN-based emotion detector capable of identifying seven emotions, trained on the Kaggle Facial Expression Recognition Challenge dataset.</li>
+                <li>Implemented real-time emotion detection using OpenCV, validating model performance with live video feeds.</li>
+                <li>Utilized TensorFlow, Keras, and Colab for model training and performance visualization.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Spell Checker - C++, Binary Tree (June 2022 - Aug 2022)</p>
+            <ul>
+                <li>Developed a spell-checking tool that generates corrected files and provides suggestions for misspelled words using data structures and algorithms.</li>
+                <li>Implemented an efficient Binary Tree for storing and querying a dictionary, allowing for fast lookup and correction of misspelled words.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Email Client - SMTP, IMAP, PyQt</p>
+            <ul>
+                <li>Built an email client capable of sending multiple emails simultaneously, with an intuitive user interface.</li>
+                <li>Used SMTP and IMAP protocols for email management, and PyQt for developing the GUI.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Quran Text-to-JSON - Python, Pandas (Jan 2023 - Feb 2023)</p>
+            <ul>
+                <li>Preprocessed and converted the Quran text into a structured JSON format using Python and Pandas, demonstrating data engineering skills.</li>
+                <li>Handled diverse data formats, ensuring clean and accurate transformation from text to JSON for seamless data handling and analysis.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Digital Clock - Basic Gates, 555 Timer Circuit</p>
+            <ul>
+                <li>Designed a fully functional digital clock with alarm functionality using basic gates and a 555 timer circuit, without relying on any microcontroller.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">PIC Microcontroller Circuitry - PIC Microcontroller, MPLAB, PIC C Compiler</p>
+            <ul>
+                <li>Designed and developed circuitry controlled by a PIC microcontroller, including a push-button-controlled DC motor and stepper motor.</li>
+                <li>Completed PCB design for the comprehensive circuit setup, integrating motors and control systems.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">3-Stage Pipelined RISC-V - PIC Microcontroller, MPLAB, PIC C Compiler</p>
+            <ul>
+                <li>Designed a 3-stage pipelined processor based on the RISC-V ISA, balancing performance with simplicity.</li>
+                <li>The pipeline included Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory (MEM), and Write Back (WB) stages.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Digital Logic Design and Verification - C, Verilog, Cocotb, QuestaSim</p>
+            <ul>
+                <li>Designed and implemented key digital circuits, including Full Adder, Half Adder, Wallace Tree Multiplier, Booth Multiplier, Restoring and Non-Restoring Division algorithms using both C and Verilog for logic design.</li>
+                <li>Developed a direct-mapped cache controller, optimizing memory access performance.</li>
+                <li>Utilized Cocotb for writing Python-based testbenches and integrated with QuestaSim for comprehensive testing and verification of hardware designs, leveraging constrained random testing, assertion-based verification, and functional coverage to ensure full functionality, accuracy, and robustness.</li>
+            </ul>
+        </div>
+    
+        <div class="sub-item">
+            <p class="item-title">Gas Geyser System - React, Firebase, IoT (MQTT)</p>
+            <ul>
+                <li>Developed an IoT-based system for efficient management of gas geysers, incorporating real-time monitoring and control.</li>
+                <li>Utilized React for the front-end, Firebase for backend services, and MQTT protocol for IoT device communication.</li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
 </body>
 </html>
